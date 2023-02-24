@@ -20,9 +20,12 @@ body {
   padding: 16px;
 }
 
-.header > img {
-  width: 500px;
-  height: auto;
+.header {
+  padding: 0 300px;
+}
+
+.logo {
+  font-size: 24px;
 }
 
 ul {
@@ -35,14 +38,32 @@ ul {
 a {
   text-decoration: none;
   color: #f9faf8;
+  font-size: 16px;
+}
+
+.header-content {
+  display: flex;
+  width: 375px;
+}
+
+.content {
+}
+
+.content > img {
+  width: 500px;
+  height: auto;
+}
+
+.button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  padding: 8px 25px;
+  width: 125px;
 }
 
 .footer {
   justify-content: center;
   align-items: center;
   padding: 32px;
-}
-
-.button {
-  background-color: #3882f6;
 }
