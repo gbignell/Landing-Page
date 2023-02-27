@@ -30,7 +30,7 @@ body {
 }
 
 .header {
-  padding: 0 300px;
+  padding: 0 25%;
 }
 
 .logo {
@@ -126,7 +126,8 @@ a {
   font-style: italic;
   color: #1f2937;
   text-align: center;
-  padding: 70px 350px;
+  padding: 70px 25%;
+  flex-grow: 0;
 }
 
 .call-to-action {
@@ -138,7 +139,7 @@ a {
   background-color: #3882f6;
   border-radius: 15px;
   color: white;
-  margin: 100px 350px;
+  margin: 100px 25%;
 }
 
 .call-to-action > button {
