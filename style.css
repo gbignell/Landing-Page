@@ -128,3 +128,39 @@ a {
   text-align: center;
   padding: 70px 350px;
 }
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 0px;
+  background-color: #3882f6;
+  border-radius: 15px;
+  color: white;
+  margin: 100px 350px;
+}
+
+.call-to-action > button {
+  background-color: #3882f6;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  margin-left: 100px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.call-to-action-heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+
+.call-to-action-text {
+  margin: 0;
+  color: #e5e7eb;
+}
