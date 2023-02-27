@@ -4,12 +4,15 @@ body {
   font-family: Roboto, Aerial, sans-serif;
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
 }
 
 .header,
 .footer {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   background-color: #1f2937;
   color: #f9faf8;
 }
@@ -18,6 +21,12 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 16px;
+  margin-bottom: 50px;
+}
+
+.header-content h1 {
+  margin: 0;
+  padding-top: 28px;
 }
 
 .header {
@@ -43,16 +52,31 @@ a {
 
 .header-content {
   display: flex;
-  width: 375px;
+  padding-bottom: 50px;
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-right: 35px;
 }
 
-.content > img {
+.picture {
+  display: flex;
+  flex: 2;
+  padding: 15px;
+}
+
+.picture > img {
   width: 500px;
   height: auto;
 }
+
+/* .content > img {
+  width: 500px;
+  height: auto;
+} */
 
 .button {
   background-color: #3882f6;
@@ -63,7 +87,43 @@ a {
 }
 
 .footer {
-  justify-content: center;
   align-items: center;
   padding: 32px;
+}
+
+.text-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.random-text {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 50px;
+}
+
+.random-item > img {
+  border: 4px solid #3882f6;
+  border-radius: 15px;
+  width: 180px;
+  height: auto;
+}
+
+.random-item {
+  padding: 0;
+  margin: 0;
+  width: 180px;
+  text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1f2937;
+  text-align: center;
 }
